@@ -125,6 +125,8 @@ const Section = () => {
             </div>
 
            <p>nhi hai bhai</p>
+           <p>check</p>
+           <p>check</p>
 
         </>
     )
