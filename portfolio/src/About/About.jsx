@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect } from 'react'
 import './About.css'
 import about_image from '../assets/hero_setup_portfolio.jpg'
-import cv from '../assets/cv.pdf' 
+import cv from '../assets/Aadil_Resume.pdf'
 
 const About = () => {
 
