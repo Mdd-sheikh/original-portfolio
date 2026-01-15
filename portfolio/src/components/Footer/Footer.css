@@ -1,0 +1,279 @@
+.footer {
+    width: 100%;
+    background-color: #ed4c22;
+    height: max(50vh, 100%);
+    
+}
+
+.left-footer {
+    width: 95%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+
+.left-footer h1 {
+    width: max(50vw, 100px);
+    color: white;
+    margin-top: 150px;
+    font-size: max(3.2vw, 20px);
+    margin-left: 0;
+    padding: 0;
+    margin-right: 550px;
+
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+.right-side p {
+    font-size: max(2vw, 18px);
+    color: #000000;
+}
+
+
+
+
+
+.contact-us {
+    width: 120px;
+    height: 25px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 10px 20px;
+    color: black;
+    transition: color 0.5s ease;
+    border-radius: 50px;
+    border: 3px solid rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dot {
+    position: absolute;
+    left: 10px;
+    top: 38%;
+    transform: translateY(-0);
+    width: 13px;
+    height: 13px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: all 0.8s ease;
+    z-index: 0;
+    overflow: hidden;
+    align-content: center;
+
+
+
+}
+
+.dot i {
+    transform: translateX(-25px);
+
+}
+
+.contact-us span {
+    position: relative;
+    z-index: 1;
+}
+
+.contact-us:hover .dot {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+
+
+}
+
+.contact-us:hover .dot i {
+
+    transform: translateX(15px);
+    font-size: 18px;
+
+
+}
+
+.contact-us:hover {
+    color: rgb(215, 152, 25);
+
+}
+
+.footer-hr-tag {
+    background-color: #777272;
+    height: 0.5px;
+    border: none;
+
+}
+
+.right-footer {
+    width: 87%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    gap: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.footer-circle {
+    width: max(1.7vw, 20px);
+    height: max(1.7vw, 20px);
+    background-color: #ffffff;
+    border-radius: 50%;
+
+}
+
+.blinkad-logo i {
+    font-size: max(1.7vw, 15px);
+}
+
+.blinkad-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: max(10vw, 95px);
+    color: #e9e9e9;
+    cursor: pointer;
+}
+
+.blinkad-logo p {
+    font-size: max(1.8vw, 16px);
+}
+
+.right-side-right-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+.left-side-right-footer {
+    display: grid;
+    gap: 130px;
+}
+.left-side-right-footer a{
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.copy-right-text {
+    color: white;
+    cursor: pointer;
+}
+
+.one-side {
+    display: block;
+    color: white;
+}
+
+.two-side {
+
+    gap: 50px;
+    align-items: center;
+    margin-top: 18px;
+    color: white;
+
+}
+
+.two-side-section {
+    display: block;
+    margin-top: 10px;
+
+
+
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+.instagram:hover {
+    border-bottom: 0.5px solid white;
+}
+
+.x-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.x-link:hover {
+    border-bottom: 0.5px solid white;
+}
+
+.linkedin-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.linkedin-link:hover {
+    border-bottom: 0.5px solid white;
+}
+
+.linkedin-link a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.email {
+    font-size: max(1.5vw, 17px);
+}
+
+.privacy-policy p {
+    position: relative;
+    top: 10px;
+    left: 1.5%;
+    font-size: max(1vw, 12px);
+    cursor: pointer;
+}
+
+.underline {
+    border-bottom: 1px solid white;
+}
+
+.privacy-policy:hover {
+
+    transform: translatex(2PX);
+    transition: 0.5s;
+}
+
+@media (max-width:1050px) {
+    .right-side {
+        display: flexbox;
+    }
+
+    .left-footer h1 {
+        margin-right: 5px;
+    }
+}

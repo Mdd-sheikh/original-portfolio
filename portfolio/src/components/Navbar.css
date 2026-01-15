@@ -1,0 +1,215 @@
+body {
+    background-color: rgb(201, 201, 201);
+}
+
+.navbar {
+    width: 85%;
+    padding: 0;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    border-radius: 35px;
+    height: 50px;
+    align-content: center;
+
+
+
+}
+
+.left {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+
+
+}
+
+.left i {
+    font-size: max(1.5vw, 10px);
+}
+
+.left p {
+    font-size: max(2vw, 18px);
+    font-weight: 600;
+}
+
+.circle-ar {
+    width: max(0.5vw, 18px);
+    height: max(1vw, 18px);
+    background-color: black;
+    border-radius: 50px;
+}
+
+.mid {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+
+
+.circle {
+    width: 15px;
+    height: 15px;
+    background-color: yellow;
+    border-radius: 50px;
+    position: fixed;
+    right: 998px;
+    display: none;
+
+}
+
+.items {
+    display: flex;
+    width: 400px;
+    height: 45px;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 0;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 17px;
+    position: fixed;
+    z-index: 99;
+
+
+
+
+
+
+}
+
+.nav-item {
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    justify-items: center;
+
+
+
+}
+
+.nav-item span {
+    transition: transform 0.5s;
+}
+
+.nav-item:hover .default-text {
+    transform: translateY(-100%);
+}
+
+.nav-item:hover .hover-text {
+    transform: translateY(-100%);
+}
+
+.hover-text {
+    color: red;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+}
+
+.nav-item span {
+    display: block;
+}
+
+.right span {
+    transition: transform 0.5s;
+    font-weight: 400;
+
+}
+
+.right {
+    margin-left: 400px;
+
+}
+
+.menu span {
+
+    display: none;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.menubar {
+    display: none;
+    
+
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+ .menu .default-text{
+        display: none;
+    }
+
+@media (max-width:1050px) {
+    .items {
+        display: none;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .menu span {
+        display: block;
+        right: 100px;
+       
+        
+
+    }
+
+    .color {
+        background-color: rgb(137, 47, 15);
+        width: 90px;
+        color: white;
+        align-items: center;
+        justify-items: center;
+        height: 32px;
+        align-self: center;
+        align-content: center;
+        border-radius: 25px;
+        position: fixed;
+        z-index: 99;
+        right: 50px;
+
+
+
+    }
+
+    .hover-text {
+        color: aliceblue;
+    }
+   
+  .menu .default-text{
+        display: block;
+    }
+   
+     
+   
+    
+
+}

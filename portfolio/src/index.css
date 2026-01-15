@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Gravitas+One&family=Outfit:wght@100..900&display=swap');
+
+
+body{
+    font-family: aonik ,sans-serif;
+    scroll-behavior: smooth;
+    scrollbar-color: tomato;
+}
+/* For Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+  height:1px; /* For horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: black; /* Track background */
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: tomato; /* Scrollbar thumb (the draggable part) */
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ed0606;
+  transform: scale(1.2); /* Thumb on hover */
+}
