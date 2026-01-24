@@ -72,7 +72,7 @@ const Section = () => {
                 </div>
             </div>
             <hr className='new-section-hr' />
-            <div className="skill-sections">
+            <div className="skill-sections" id='skill'>
 
                 <div className="logo-boxes">
 
