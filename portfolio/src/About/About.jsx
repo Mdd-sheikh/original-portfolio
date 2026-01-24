@@ -50,7 +50,7 @@ const About = () => {
                 </div>
                 <div className="about-info">
                     <div className="about-image">
-                        <a href={about_image} download={about_image}> <img src={about_image} alt="" /></a>
+                        <a href={about_image} download={about_image}> <img src={about_image} alt="md aadil updated resume " /></a>
                     </div>
                     <div className="about-paragraph">
                         <p>I'm passionate about creating digital experiences that are both
